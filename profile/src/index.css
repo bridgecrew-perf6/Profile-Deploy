@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Redacted+Script:wght@300&family=Roboto+Mono:ital,wght@0,300;1,300&display=swap');
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+  text-align: center;
+}
+
+body {
+  padding-top: 45px;
+}
+
+.about,
+.hobbies,
+.project,
+.contact {
+  font-family: 'Roboto Mono', monospace;
+  border-style: inset;
+  border-radius: 12px;
+  border: 2px solid black;
+  min-height: 200vh;
+}
+
+.carousel{
+  overflow: hidden;
+  height: 480px;
+  width: 600px; 
+}
+
+.carousel-item img {
+  height: 480px;
+  width: 600px; 
+  overflow: hidden;
+}
+
+.Bicycling{
+  margin: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+a.nav-padding {
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.mr {
+  padding-left: 10px;
+  vertical-align: baseline;
+}
+
+.about-me{
+margin-top: 2em;
+}
+
+.my-bikes{
+  margin: auto;
+}
+
+#a1{
+  font-family: 'Roboto Mono', monospace;
+  padding: 1em;
+}
+
