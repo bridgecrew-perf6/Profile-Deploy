@@ -8,7 +8,7 @@ import TxtMap from './components/TxtMap';
 
 export default function App() {
 	return (
-		<div className="bg-light-blue">
+		<div className="bg-light">
 			<NavBar />
 			<section className="about" id="about">
 				<h1>About</h1>
