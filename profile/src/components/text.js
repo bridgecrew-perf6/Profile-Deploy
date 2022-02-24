@@ -7,7 +7,7 @@ const text = [
 		id: 'about',
 		text: (
 			<p
-				className="fw-bold"
+				className=""
 				id="a1"
 				style={{ textAlign: 'justify' }}
 			>{`Hello names Edgar I am a guy who has started to enjoy programming. 

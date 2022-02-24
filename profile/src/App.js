@@ -1,17 +1,17 @@
 import './index.css';
 import './styles.scss';
 import NavBar from './components/navBar';
-import meImg from './Profile-Pics/me.jpg';
+import meImg from './Profile-Pics/IMG_20220223_163516978.jpg';
 import text from './components/text';
 import BikeCarousel from './components/bikeCarousel';
 import TxtMap from './components/TxtMap';
 
 export default function App() {
 	return (
-		<div className="bg-light">
+		<div className="bg-light bg-opacity-25">
 			<NavBar />
 			<section className="about" id="about">
-				<h1>About</h1>
+				<h1>Home</h1>
 				<div className="pic-of-me d-inline-flex bg-secondary" id="pic-of-me">
 					<img
 						src={meImg}
@@ -29,9 +29,6 @@ export default function App() {
 			<section className="hobbies" id="hobbies">
 				<h1>Hobbies</h1>
 				<section className="Bicycling d-flex border">
-					<article className="Bicycle Fufillment">
-						<TxtMap id="Fufillment" />
-					</article>
 					<div className="my-bikes border">
 						<h1>My Bicycles</h1>
 						<div className="my-bikes-carolsel d-flex ">
@@ -39,31 +36,21 @@ export default function App() {
 							<BikeCarousel />
 						</div>
 					</div>
+					<article className="Bicycle fun">
+						<TxtMap id="Fun" />
+					</article>
 					{/* !NOTE CHANGE CLASSNAME TO BIKEJOURNIES */}
-					<div className="bike-trips d-flex border">
-						{/*multiple trips divs each with, text, google maps positions
-            //NIAGRA TRIP*/}
-						<div className="niagraTrip">
-							{/* replace with component
-                  <map&text map={} text={}/>
-              */}
-							<div className="map&text">
-								{/*<img src={"#"} alt="#"/>  */}
-								{/*
-                  going to add another one of those functions
-                  into here but will probably make it into a component
-                  e.g < />
-                 */}
-							</div>
+					<div className="bike-journies d-flex border">
+						<h1>My Bicycle Journies</h1>
+						<div className="NiagraTrip d-flex">
+							<article>
+								<TxtMap id="Niagra" />
+							</article>
 						</div>
-						{/*Georgian Bay Trips*/}
-						<div className="georgianBayTrip">
-							{/* <map&text map={} text={}/>
-                  <map&text map={} text={}/>
-                  <map&text map={} text={}/>
-                  <map&text map={} text={}/>
-                  ...
-              */}
+						<div className="GeorgianBayTrip">
+							<article>
+								<TxtMap id="Georgian Bay" />
+							</article>
 						</div>
 					</div>
 				</section>
@@ -79,7 +66,7 @@ export default function App() {
 			</section>
 
 			<section className="project" id="project">
-				<h2>Projects</h2>
+				<h1>Projects</h1>
 				{/* will be made into a flex box */}
 				<div className="project_grid d-grid">
 					{/* <div className="grid-item"><a href={}><img src={} alt="" /></a></div>

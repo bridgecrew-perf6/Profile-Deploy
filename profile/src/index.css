@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Redacted+Script:wght@300&family=Roboto+Mono:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,300&display=swap');
 
 .App {
   font-family: sans-serif;
@@ -25,6 +25,15 @@ body {
   min-height: 200vh;
 }
 
+.about > h1,.hobbies > h1,.project > h1,.contact > h1{
+  font-weight: bold;
+  margin: 2% 0;
+}
+
+.pic-of-me{
+  margin: 2% 0;
+}
+
 .carousel{
   overflow: hidden;
   height: 480px;
@@ -41,6 +50,19 @@ body {
   margin: auto;
   margin-top: 2em;
   margin-bottom: 2em;
+  flex-direction: column;
+}
+
+.Bicycling > *{
+  margin:2% 0;
+}
+
+.bike-journies{
+  justify-content: center;
+}
+
+.bike-journies > h1{
+
 }
 
 a.nav-padding {

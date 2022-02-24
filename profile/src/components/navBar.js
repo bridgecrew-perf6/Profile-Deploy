@@ -17,7 +17,7 @@ const NavBar = () => {
 				{links.map((link) => {
 					return (
 						<a
-							className="nav-padding btn btn-outline-success"
+							className="nav-padding btn btn-outline-secondary"
 							href={link.url}
 							key={link.id}
 							onClick={handleClick}

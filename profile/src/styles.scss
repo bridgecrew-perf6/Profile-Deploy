@@ -10,9 +10,24 @@
             background-color: rgb(173, 226, 230)
         }
     }
+    @if $val == opaque{
+        .bg-#{$val}{
+            background-color:  #8aae9d; 
+        }
+    }
 } 
+
+
+@mixin border-($val){
+    @if $val == opaque-border{
+        .border-#($val){
+            border: 1.5px solid #8aae9d;
+        }
+    }
+}
 
 @include bg-("medium-grey");
 @include bg-("light-blue");
+@include bg-("opaque-border");
 
 
