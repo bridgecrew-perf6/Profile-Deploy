@@ -2,6 +2,8 @@ import './index.css';
 import './styles.scss';
 import NavBar from './components/navBar';
 import meImg from './Profile-Pics/IMG_20220223_163516978.jpg';
+import Niagra from './Profile-Pics/Niagra.jpg';
+import Bay from './Profile-Pics/Bay.jpg';
 import text from './components/text';
 import BikeCarousel from './components/bikeCarousel';
 import TxtMap from './components/TxtMap';
@@ -40,16 +42,26 @@ export default function App() {
 						<TxtMap id="Fun" />
 					</article>
 					{/* !NOTE CHANGE CLASSNAME TO BIKEJOURNIES */}
-					<div className="bike-journies d-flex border">
+					<div className="bike-journies d-flex border border-2 border-opaque-border rounded">
 						<h1>My Bicycle Journies</h1>
-						<div className="NiagraTrip d-flex">
+						<div className="NiagraTrip d-flex ">
 							<article>
 								<TxtMap id="Niagra" />
+								<img
+									className="NiagraTripPic"
+									src={Niagra}
+									alt="Niagra Falls Bike Trips"
+								/>
 							</article>
 						</div>
 						<div className="GeorgianBayTrip">
 							<article>
 								<TxtMap id="Georgian Bay" />
+								<img
+									className="GeorgianBayTripPic"
+									src={Bay}
+									alt="Georgian Bay Round Trip"
+								/>
 							</article>
 						</div>
 					</div>
