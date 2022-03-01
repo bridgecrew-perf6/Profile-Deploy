@@ -42,23 +42,24 @@ export default function App() {
 						<TxtMap id="Fun" />
 					</article>
 					{/* !NOTE CHANGE CLASSNAME TO BIKEJOURNIES */}
-					<div className="bike-journies d-flex border border-2 border-opaque-border rounded">
+
+					<div className="bike-journies d-flex flex-column border border-2 border-opaque-border rounded ">
 						<h1>My Bicycle Journies</h1>
-						<div className="NiagraTrip d-flex ">
+						<div className="trips d-flex flex-row justify-content-around m-4 border border-2 border-opaque-border rounded ">
 							<article>
 								<TxtMap id="Niagra" />
-								<img
-									className="NiagraTripPic"
-									src={Niagra}
-									alt="Niagra Falls Bike Trips"
-								/>
 							</article>
+							<img
+								className="TripPic m-4 "
+								src={Niagra}
+								alt="Niagra Falls Bike Trips"
+							/>
 						</div>
-						<div className="GeorgianBayTrip">
+						<div className="d-inline-flex">
 							<article>
 								<TxtMap id="Georgian Bay" />
 								<img
-									className="GeorgianBayTripPic"
+									className="TripPic"
 									src={Bay}
 									alt="Georgian Bay Round Trip"
 								/>

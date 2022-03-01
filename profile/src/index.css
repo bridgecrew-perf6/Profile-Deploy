@@ -57,29 +57,13 @@ body {
   margin:2% 0;
 }
 
-.bike-journies{
-  justify-content: space-between;
-  flex-direction: column;
+
+
+.TripPic{
+  height: 50vh;
+  
 }
 
-.bike-journies > *{
-  margin: 2% 0;
-}
-
-.bike-journies > div{
-  margin: 10% 0;
-}
-
-.bike-journies > .NiagraTrip, .bike-journies > .GeorgianBayTrip{
-  flex-direction: row;
-  justify-content: center;
-  width: 100%;
-}
-
-.NiagraTripPic,.GeorgianBayTripPic{
-  margin: 0 50px;
-  width: 525px;
-}
 
 a.nav-padding {
   text-decoration: none;
@@ -104,3 +88,7 @@ margin-top: 2em;
   padding: 1em;
 }
 
+/* TxtMap css */
+.textBlock{
+  height: 50vh;
+}
