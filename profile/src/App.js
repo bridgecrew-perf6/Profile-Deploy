@@ -1,12 +1,15 @@
 import './index.css';
 import './styles.scss';
-import NavBar from './components/navBar';
-import meImg from './Profile-Pics/IMG_20220223_163516978.jpg';
-import Niagra from './Profile-Pics/Niagra.jpg';
-import Bay from './Profile-Pics/Bay.jpg';
-import text from './components/text';
-import BikeCarousel from './components/bikeCarousel';
-import TxtMap from './components/TxtMap';
+import { Bay, Niagra, meImg } from './Profile-Pics';
+import {
+	BikeCarousel,
+	NavBar,
+	Text,
+	TxtMap,
+	BikeTrips,
+	ProjectGrid,
+	CertificateGrid,
+} from './components';
 
 export default function App() {
 	return (
@@ -24,7 +27,7 @@ export default function App() {
 					/>
 				</div>
 				<div className="about-me d-inline-flex justify-content-center">
-					{<TxtMap id="about" />}
+					<TxtMap id="about" />
 				</div>
 			</section>
 
@@ -45,57 +48,33 @@ export default function App() {
 
 					<div className="bike-journies d-flex flex-column border border-2 border-opaque-border rounded ">
 						<h1>My Bicycle Journies</h1>
-						<div className="trips d-flex flex-row justify-content-around m-4 border border-2 border-opaque-border rounded ">
-							<article>
-								<TxtMap id="Niagra" />
-							</article>
-							<img
-								className="TripPic m-4 "
-								src={Niagra}
-								alt="Niagra Falls Bike Trips"
-							/>
-						</div>
-						<div className="d-inline-flex">
-							<article>
-								<TxtMap id="Georgian Bay" />
-								<img
-									className="TripPic"
-									src={Bay}
-									alt="Georgian Bay Round Trip"
-								/>
-							</article>
-						</div>
+						{/*Image names are backwards */}
+
+						<BikeTrips image={Bay} text="Niagra" />
+						<BikeTrips image={Niagra} text="Georgian Bay" />
 					</div>
 				</section>
 
-				<section className="warhammer d-flex border">
+				<section className="warhammer d-flex flex-column">
 					{/*add link for now*/}
 					<h2>Warhammer 40k</h2>
 					<div className="underConstruction">
-						{/* <img src={} alt="hardHat"/> */}
+						<TxtMap id="Warhammer Intro" />
 						<h3>UNDER CONSTRUCTION</h3>
 					</div>
 				</section>
 			</section>
 
 			<section className="project" id="project">
-				<h1>Projects</h1>
+				<h1>Projects & Certifications</h1>
 				{/* will be made into a flex box */}
 				<div className="project_grid d-grid">
-					{/* <div className="grid-item"><a href={}><img src={} alt="" /></a></div>
-                <div className="grid-item"><a href={}><img src={} alt="" /></a></div>
-                <div className="grid-item"><a href={}><img src={} alt="" /></a></div>
-                <div className="grid-item"><a href={}><img src={} alt="" /></a></div>
-                <div className="grid-item"><a href={}><img src={} alt="" /></a></div>
-                <div className="grid-item"><a href={}><img src={} alt="" /></a></div>
-            */}
+					<h1>Projects</h1>
+					<ProjectGrid />
 				</div>
 				<div className="certificates">
-					<div className="cert">
-						{/* <a href="#"/> <img src={} alt="" /> </a> 
-                <a href="#"/> <img src={} alt="" /> </a> 
-            */}
-					</div>
+					<h1>CERTIFICATIONS</h1>
+					<CertificateGrid />
 				</div>
 				<div className="github">
 					{/* copy the github link from the eddie website */}
@@ -117,11 +96,11 @@ export default function App() {
 					<div className="inTouch">
 						<form className="form">
 							<label htmlFor="name">Name</label>
-							<input type={text} name="name" placeholder="Name" />
+							<input type={Text} name="name" placeholder="Name" />
 							<label htmlFor="sName">Surname</label>
-							<input type={text} name="Surname" placeholder="Surname" />
+							<input type={Text} name="Surname" placeholder="Surname" />
 							<label htmlFor="email">Email</label>
-							<input type={text} name="email" placeholder="enter email" />
+							<input type={Text} name="email" placeholder="enter email" />
 							<label htmlFor="mssg">Mssg</label>
 							<textarea
 								name="mssg"

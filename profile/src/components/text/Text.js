@@ -1,4 +1,4 @@
-const text = [
+const Text = [
 	{
 		id: 'blah',
 		text: <p>"NOT STUFF ABOUT ME"</p>,
@@ -68,14 +68,14 @@ const text = [
 		),
 	},
 	{
-		id: 'Other',
+		id: 'Warhammer Intro',
 		text: (
 			<p>
-				i am a fan of Warhammer 40k and will probably make a seperate post/
-				webpage about that.
+				i am a fan of Warhammer 40k but will make a seperate page for it in the
+				future as I will speak volumes about it :D.
 			</p>
 		),
 	},
 ];
 
-export default text;
+export default Text;

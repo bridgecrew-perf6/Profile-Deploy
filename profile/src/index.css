@@ -59,10 +59,6 @@ body {
 
 
 
-.TripPic{
-  height: 50vh;
-  
-}
 
 
 a.nav-padding {
@@ -89,6 +85,12 @@ margin-top: 2em;
 }
 
 /* TxtMap css */
-.textBlock{
-  height: 50vh;
+/* .textBlock{
+  width: 80%;
+} */
+
+/* ProjectGrid css */
+
+.projectIMG{
+  width: 100%
 }
