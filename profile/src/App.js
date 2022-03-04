@@ -1,5 +1,7 @@
 import './index.css';
 import './styles.scss';
+
+import { CertificateData } from './components/grids/CertificateData';
 import { Bay, Niagra, meImg } from './Profile-Pics';
 import {
 	BikeCarousel,
@@ -7,8 +9,7 @@ import {
 	Text,
 	TxtMap,
 	BikeTrips,
-	ProjectGrid,
-	CertificateGrid,
+	GenerateGrid,
 } from './components';
 
 export default function App() {
@@ -70,11 +71,11 @@ export default function App() {
 				{/* will be made into a flex box */}
 				<div className="project_grid d-grid">
 					<h1>Projects</h1>
-					<ProjectGrid />
+					<GenerateGrid column="three" Data={CertificateData} />
 				</div>
 				<div className="certificates">
 					<h1>CERTIFICATIONS</h1>
-					<CertificateGrid />
+					<GenerateGrid column="two" Data={CertificateData} />
 				</div>
 				<div className="github">
 					{/* copy the github link from the eddie website */}
