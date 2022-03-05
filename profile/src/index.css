@@ -94,3 +94,10 @@ margin-top: 2em;
 .projectIMG{
   width: 100%
 }
+
+/* Contact Form.js */
+
+.Contact_Form > div{
+  width: 60%;
+  
+}

@@ -10,6 +10,7 @@ import {
 	TxtMap,
 	BikeTrips,
 	GenerateGrid,
+	ContactForm,
 } from './components';
 
 export default function App() {
@@ -84,34 +85,7 @@ export default function App() {
 
 			<section className="contact" id="contact">
 				<h1>contact</h1>
-				<div className="feedback d-flex">
-					<h3>Love to hear back from you</h3>
-					<div className="phone&email">
-						{/* <img src={} alt="" />
-                <div className="p&e">
-                  <h3>Email: edsDbug@gmail.com</h3>
-                  <h3>Phone: 416-822-3939</h3>
-                </div>
-            */}
-					</div>
-					<div className="inTouch">
-						<form className="form">
-							<label htmlFor="name">Name</label>
-							<input type={Text} name="name" placeholder="Name" />
-							<label htmlFor="sName">Surname</label>
-							<input type={Text} name="Surname" placeholder="Surname" />
-							<label htmlFor="email">Email</label>
-							<input type={Text} name="email" placeholder="enter email" />
-							<label htmlFor="mssg">Mssg</label>
-							<textarea
-								name="mssg"
-								rows="20"
-								cols="70"
-								placeholder="Enter your comment here..."
-							/>
-						</form>
-					</div>
-				</div>
+				<ContactForm />
 			</section>
 		</div>
 	);
