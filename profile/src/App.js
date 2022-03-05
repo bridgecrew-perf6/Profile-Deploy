@@ -6,11 +6,10 @@ import { Bay, Niagra, meImg } from './Profile-Pics';
 import {
 	BikeCarousel,
 	NavBar,
-	Text,
 	TxtMap,
 	BikeTrips,
 	GenerateGrid,
-	ContactForm,
+	FormSpree,
 } from './components';
 
 export default function App() {
@@ -84,8 +83,12 @@ export default function App() {
 			</section>
 
 			<section className="contact" id="contact">
-				<h1>contact</h1>
-				<ContactForm />
+				<h1>Contact</h1>
+				<div className="d-flex justify-content-center">
+					<div className="MessageSubmit border border-2 border-opaque-border rounded">
+						<FormSpree />
+					</div>
+				</div>
 			</section>
 		</div>
 	);

@@ -4,4 +4,4 @@ export { default as Text } from './text/Text';
 export { default as TxtMap } from './text/TxtMap';
 export { default as BikeTrips } from './BikeTrips';
 export { default as GenerateGrid } from './grids/GenerateGrid';
-export { ContactForm } from './ContactForm';
+export { FormSpree } from './FormSpree';

@@ -97,7 +97,6 @@ margin-top: 2em;
 
 /* Contact Form.js */
 
-.Contact_Form > div{
+.MessageSubmit {
   width: 60%;
-  
 }
