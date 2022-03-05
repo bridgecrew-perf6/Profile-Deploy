@@ -60,7 +60,7 @@ export const FormSpree = () => {
 						className="form-control"
 						id="email"
 						name="email"
-						placeholder="I.e@example.com"
+						placeholder="james@example.com"
 						aria-describedby="addon-wrapping"
 					/>
 					<ValidationError prefix="Email" field="email" errors={state.errors} />
