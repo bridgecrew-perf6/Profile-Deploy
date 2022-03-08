@@ -97,6 +97,10 @@ margin-top: 2em;
 
 /* Contact Form.js */
 
-.MessageSubmit {
-  width: 70%;
+.MessageSubmit{
+  width: 60%;
+}
+
+.contact-me{
+  width: 50%;
 }
