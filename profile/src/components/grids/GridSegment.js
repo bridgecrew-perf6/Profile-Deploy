@@ -1,14 +1,17 @@
 import React from 'react';
+import '../../index.css';
 
 export const GridSegment = ({ name, link, pic, description }) => {
 	return (
-		<div class="column">
-			<div class="ui segment">
+		<div className="gridSegment column d-inline-flex justify-content-center">
+			<div className="ui segment">
 				<h4>{name}</h4>
-				<a href={link}>
-					<img className="projectIMG" src={pic} />
-				</a>
-				<p>{description}</p>
+				<div>
+					<a href={link}>
+						<img className="projectIMG" src={pic} alt="something" />
+					</a>
+				</div>
+				<p className="paragraphHeight">{description}</p>
 			</div>
 		</div>
 	);

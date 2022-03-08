@@ -92,7 +92,12 @@ margin-top: 2em;
 /* ProjectGrid css */
 
 .projectIMG{
-  width: 100%
+  width: 375px;
+  height: 295px;
+}
+
+.paragraphHeight{
+  min-height: 100px;
 }
 
 /* Contact Form.js */

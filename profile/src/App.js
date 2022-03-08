@@ -2,6 +2,7 @@ import './index.css';
 import './styles.scss';
 
 import { CertificateData } from './components/grids/CertificateData';
+import { ProjectData } from './components/grids/ProjectData';
 import { Bay, Niagra, meImg } from './Profile-Pics';
 import {
 	BikeCarousel,
@@ -71,7 +72,7 @@ export default function App() {
 				{/* will be made into a flex box */}
 				<div className="project_grid d-grid">
 					<h1>Projects</h1>
-					<GenerateGrid column="three" Data={CertificateData} />
+					<GenerateGrid column="three" Data={ProjectData} />
 				</div>
 				<div className="certificates">
 					<h1>CERTIFICATIONS</h1>
