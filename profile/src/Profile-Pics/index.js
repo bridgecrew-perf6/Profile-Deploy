@@ -13,11 +13,13 @@ import Random_Quote_Machine from './Random_Quote_Machine.png';
 import Survey_Form from './Survey_Form.png';
 import Personal_Portfolio_Eddies_Music from "./Personal_Portfolio_Eddie's_Music.png";
 import In_Progress from './In_Progress.jpg';
+import Me2 from './Me/me2.jpg';
 
 export {
 	Bay,
 	Niagra,
 	meImg,
+	Me2,
 	moustache,
 	giant,
 	JS_Algorithms_Data_Structures_Cert,
