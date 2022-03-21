@@ -8,15 +8,16 @@ import {
 	Survey_Form,
 	Personal_Portfolio_Eddies_Music,
 	In_Progress,
+	Me2,
 } from '../../Profile-Pics';
 
 export const ProjectData = [
 	{
 		id: 'Profile_Project',
-		pic: meImg,
+		pic: In_Progress,
 		link: 'https://eds-dbug.github.io/Profile-Deploy/',
 		description:
-			'{I need a better profile pic}. At first it was a normal website made with React but became so much more... now having less tags and more reusable code  ',
+			'{I want anothe picture for this block}. At first it was a normal website made with React but became so much more... now having less tags and more reusable code  ',
 	},
 	{
 		id: 'Seasons_App',
