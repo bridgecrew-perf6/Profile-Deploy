@@ -10,10 +10,10 @@ const Text = [
 				className=""
 				id="a1"
 				style={{ textAlign: 'justify' }}
-			>{`Hello names Edgar I am a guy who has started to enjoy programming. 
+			>{`Hello names Edgar I am a recent grad who at first hated but now enjoys programming. 
         That being said I am a avid bicyclist and although I havent worked out recently I do like 
         excercise (see my hobbies section). I am an army reservist having been a war history buff for 
-        many years (and wanting to have some excuse for a good workout). To be continued :)`}</p>
+        many years (and wanting to have some excuse for a good workout).`}</p>
 		),
 	},
 	{
