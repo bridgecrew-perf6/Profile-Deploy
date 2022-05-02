@@ -14,6 +14,7 @@ import Survey_Form from './Survey_Form.png';
 import Personal_Portfolio_Eddies_Music from "./Personal_Portfolio_Eddie's_Music.png";
 import In_Progress from './In_Progress.jpg';
 import Me2 from './Me/me2.jpg';
+import Videos_Search_App from './Videos_Search_App.png';
 
 export {
 	Bay,
@@ -32,4 +33,5 @@ export {
 	Survey_Form,
 	In_Progress,
 	Personal_Portfolio_Eddies_Music,
+	Videos_Search_App,
 };

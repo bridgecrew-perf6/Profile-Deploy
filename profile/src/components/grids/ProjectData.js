@@ -9,15 +9,16 @@ import {
 	Personal_Portfolio_Eddies_Music,
 	In_Progress,
 	Me2,
+	Videos_Search_App,
 } from '../../Profile-Pics';
 
 export const ProjectData = [
 	{
-		id: 'Profile_Project',
-		pic: In_Progress,
-		link: 'https://eds-dbug.github.io/Profile-Deploy/',
+		id: 'Videos_Search_App',
+		pic: Videos_Search_App,
+		link: 'https://eds-dbug.github.io/videos/',
 		description:
-			'{I want anothe picture for this block}. At first it was a normal website made with React but became so much more... now having less tags and more reusable code  ',
+			'App that searches for videos, that was created during Modern React with Redux Course',
 	},
 	{
 		id: 'Seasons_App',
@@ -59,9 +60,11 @@ export const ProjectData = [
 		description: 'My first survey form',
 	},
 	{
-		id: 'In Progress',
+		id: 'Profile_Project',
 		pic: In_Progress,
-		description: 'Work in Progress',
+		link: 'https://eds-dbug.github.io/Profile-Deploy/',
+		description:
+			'{I want anothe picture for this block}. At first it was a normal website made with React but became so much more... now having less tags and more reusable code  ',
 	},
 	{
 		id: 'In Progress',
