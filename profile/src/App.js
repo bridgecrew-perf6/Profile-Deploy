@@ -69,6 +69,7 @@ export default function App() {
 					<GenerateGrid column="three" Data={ProjectData} />
 				</div>
 				<div className="certificates">
+					<br />
 					<h1>CERTIFICATIONS</h1>
 					<GenerateGrid column="two" Data={CertificateData} />
 				</div>
