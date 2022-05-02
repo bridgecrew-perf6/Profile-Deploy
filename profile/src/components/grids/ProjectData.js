@@ -60,12 +60,6 @@ export const ProjectData = [
 		description: 'My first survey form',
 	},
 	{
-		id: 'Profile_Project',
-		pic: Me2,
-		link: 'https://eds-dbug.github.io/Profile-Deploy/',
-		description: 'This very page that you are on right now',
-	},
-	{
 		id: 'In Progress',
 		pic: In_Progress,
 		description: 'Work in Progress',
