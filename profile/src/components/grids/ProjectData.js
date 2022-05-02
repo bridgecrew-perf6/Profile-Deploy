@@ -61,7 +61,7 @@ export const ProjectData = [
 	},
 	{
 		id: 'Profile_Project',
-		pic: In_Progress,
+		pic: Me2,
 		link: 'https://eds-dbug.github.io/Profile-Deploy/',
 		description: 'This very page that you are on right now',
 	},
