@@ -51,7 +51,7 @@ export const ProjectData = [
 		id: 'Random_Quote_Machine',
 		pic: Random_Quote_Machine,
 		link: 'https://codepen.io/TeeJip/full/qBmvwWX',
-		description: 'The very first React App I have ever made',
+		description: 'A Quote machine that generates random quotes',
 	},
 	{
 		id: 'Survey_Form',
@@ -63,8 +63,7 @@ export const ProjectData = [
 		id: 'Profile_Project',
 		pic: In_Progress,
 		link: 'https://eds-dbug.github.io/Profile-Deploy/',
-		description:
-			'{I want anothe picture for this block}. At first it was a normal website made with React but became so much more... now having less tags and more reusable code  ',
+		description: 'This very page that you are on right now',
 	},
 	{
 		id: 'In Progress',
