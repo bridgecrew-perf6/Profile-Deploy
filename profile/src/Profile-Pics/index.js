@@ -15,6 +15,7 @@ import Personal_Portfolio_Eddies_Music from "./Personal_Portfolio_Eddie's_Music.
 import In_Progress from './In_Progress.jpg';
 import Me2 from './Me/me2.jpg';
 import Videos_Search_App from './Videos_Search_App.png';
+import Student_List_App from './Student_List_App.png';
 
 export {
 	Bay,
@@ -34,4 +35,5 @@ export {
 	In_Progress,
 	Personal_Portfolio_Eddies_Music,
 	Videos_Search_App,
+	Student_List_App,
 };

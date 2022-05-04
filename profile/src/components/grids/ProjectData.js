@@ -10,6 +10,7 @@ import {
 	In_Progress,
 	Me2,
 	Videos_Search_App,
+	Student_List_App,
 } from '../../Profile-Pics';
 
 export const ProjectData = [
@@ -33,6 +34,11 @@ export const ProjectData = [
 		link: 'https://eds-dbug.github.io/Image_Search_App/',
 		description:
 			'App that searches for images depending on whatever the user puts in the search bar',
+	},
+	{
+		id: 'Student_List_App',
+		pic: Student_List_App,
+		description: 'An app that renders a list of students and can search for a student by name or by tags that can be added. For more information please contact me.'
 	},
 	{
 		id: 'Technical_Documentation_Page',
