@@ -51,15 +51,15 @@ export default function App() {
 					</div>
 				</section>
 
-				<section className="warhammer d-flex flex-column">
-					{/*add link for now*/}
+				 {/* <section className="warhammer d-flex flex-column">
+					
 					<h2>Warhammer 40k</h2>
 					<div className="underConstruction">
 						<TxtMap id="Warhammer Intro" />
 						<h3>UNDER CONSTRUCTION</h3>
 					</div>
-				</section>
-			</section>
+				</section> */}
+			</section> 
 
 			<section className="project" id="project">
 				<h1>Projects & Certifications</h1>
@@ -70,7 +70,7 @@ export default function App() {
 				</div>
 				<div className="certificates">
 					<br />
-					<h1>CERTIFICATIONS</h1>
+					<h1 className='mt-3'>CERTIFICATIONS</h1>
 					<GenerateGrid column="two" Data={CertificateData} />
 				</div>
 				<div className="github">
