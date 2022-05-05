@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Profile-Deploy/static/css/main.07e31254.chunk.css",
-    "main.js": "/Profile-Deploy/static/js/main.e32c10fd.chunk.js",
-    "main.js.map": "/Profile-Deploy/static/js/main.e32c10fd.chunk.js.map",
+    "main.js": "/Profile-Deploy/static/js/main.55960570.chunk.js",
+    "main.js.map": "/Profile-Deploy/static/js/main.55960570.chunk.js.map",
     "runtime-main.js": "/Profile-Deploy/static/js/runtime-main.743f38fd.js",
     "runtime-main.js.map": "/Profile-Deploy/static/js/runtime-main.743f38fd.js.map",
     "static/css/2.d8cb5cde.chunk.css": "/Profile-Deploy/static/css/2.d8cb5cde.chunk.css",
@@ -24,6 +24,7 @@
     "static/media/Random_Quote_Machine.e38648f2.png": "/Profile-Deploy/static/media/Random_Quote_Machine.e38648f2.png",
     "static/media/Responsive Web Design Cert.704df86e.png": "/Profile-Deploy/static/media/Responsive Web Design Cert.704df86e.png",
     "static/media/Seasons_React_App.ae851abc.png": "/Profile-Deploy/static/media/Seasons_React_App.ae851abc.png",
+    "static/media/Student_List_App.b4275393.png": "/Profile-Deploy/static/media/Student_List_App.b4275393.png",
     "static/media/Survey_Form.fbe20ea1.png": "/Profile-Deploy/static/media/Survey_Form.fbe20ea1.png",
     "static/media/Technical_Documentation.83fbb86d.png": "/Profile-Deploy/static/media/Technical_Documentation.83fbb86d.png",
     "static/media/Tribute_Page_Test.b91ff9fd.png": "/Profile-Deploy/static/media/Tribute_Page_Test.b91ff9fd.png",
@@ -37,6 +38,6 @@
     "static/css/2.d8cb5cde.chunk.css",
     "static/js/2.1ff8e2c8.chunk.js",
     "static/css/main.07e31254.chunk.css",
-    "static/js/main.e32c10fd.chunk.js"
+    "static/js/main.55960570.chunk.js"
   ]
 }
