@@ -38,7 +38,9 @@ export const ProjectData = [
 	{
 		id: 'Student_List_App',
 		pic: Student_List_App,
-		description: 'An app that renders a list of students and can search for a student by name or by tags that can be added. For more information please contact me.'
+		link: 'https://eds-dbug.github.io/front_end_assessment-2/',
+		description: 
+			'An app that renders a list of students and can search for a student by name or by tags that can be added. For more information please contact me.'
 	},
 	{
 		id: 'Technical_Documentation_Page',
