@@ -1,14 +1,11 @@
 import {
-	meImg,
 	Seasons_React_App,
 	Image_Search_App,
 	Technical_Documentation_Page,
 	Tribute_Page,
 	Random_Quote_Machine,
 	Survey_Form,
-	Personal_Portfolio_Eddies_Music,
 	In_Progress,
-	Me2,
 	Videos_Search_App,
 	Student_List_App,
 } from '../../Profile-Pics';
